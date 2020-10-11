@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-alpine
+FROM openjdk:16-jdk-alpine3.12
 LABEL maintainer="barrywalker@gmail.com"
 
 ADD http://www.theweb.dk/KickAssembler/KickAssembler.zip /
