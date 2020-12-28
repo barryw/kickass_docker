@@ -26,3 +26,11 @@ This assumes that your assembly files are in the current directory. For example,
 ```bash
 docker run -v ${PWD}:/code barrywalker/kickassembler:latest /code/main.asm
 ```
+
+You can also create an alias to make things much easier:
+
+```bash
+alias kickass='docker run -it -v ${PWD:-.}:/code barrywalker/kickassembler:latest'
+```
+
+Now, you can run `kickass /code/main.asm`
