@@ -9,7 +9,7 @@
 
 #### Introduction
 
-This is a Docker image that you can use to run the KickAssembler without having to download it. I try to keep it up-to-date and pointed at the latest version of KickAssembler, which is 5.16 currently.
+This is a Docker image that you can use to run the KickAssembler without having to download it. I try to keep it up-to-date and pointed at the latest version of KickAssembler, which is 5.19 currently.
 
 #### What is KickAssembler?
 
